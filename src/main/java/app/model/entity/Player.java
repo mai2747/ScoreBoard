@@ -8,4 +8,16 @@ public class Player {
         this.name = name;
         this.playerID = playerID;
     }
+
+    public String getName(){ return name; }
+    public int getPlayerID(){ return playerID; }
+
+    public void setName(String newName){
+        name = newName;
+    }
+
+    @Override
+    public String toString(){
+        return name;
+    }
 }
